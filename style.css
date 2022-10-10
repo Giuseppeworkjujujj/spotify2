@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 82%;
+    height: 100px;
+    float: right;
+    background-color: #080B12;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header button{
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #080B12;
+    border: 2px solid white;
+    margin-right: 30px;
+}
+
+/* .............SINISTRA................................. */
+.sx{
+    width: 18%;
+    height: calc(100vh - 120px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.img1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.sx img{
+    width: 60%;
+    margin-left: 25px;
+
+}
+
+.icone{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.sx svg{
+    width: 30px;
+    margin: 0 10px 0 25px;
+}
+.sx ul{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sx li {
+    color: #404040;
+}
+
+.sx li:first-child{
+    color: white;
+}
+
+.pl h2{
+    color: white;
+    width: 30px;
+    margin: 10px 10px 0 25px;  
+    font-size: large; 
+}
+
+.crpl{
+    margin: 25px 0 0 100px;   
+    position: absolute;
+    font-size: 22px;
+    font-weight: bold;
+    color: #404040;
+}
+
+.piu{
+    margin: 10px 0 0 0;   
+    position: absolute;
+}
+
+.piu img{
+    width: 70%;
+}
+
+.playlist{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin: 65px 0 0 0;
+    overflow: auto;
+}
+
+.pls{
+    padding-left: 25px;
+    line-height: 40px;
+}
+
+.down{
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+
+.down i{
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    color: #404040;
+}
+
+.down p{
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #404040;
+}
+
+.down hr{
+    width: 80%;
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    border: 1px solid #404040;
+    background-color: #404040;
+}
+.john {
+    position: relative;
+}
+.john p{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+}
+
+.john i{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+/* ............................DESTRA.............................. */
+.dx{
+    width: 82%;
+    height: 100%;
+    float: right;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.menu2{
+    border: 2px solid black;
+    width: 70%;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+}
+
+.menu2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu2 li{
+    display: inline;
+    color: #404040;
+}
+
+.rec{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    color: white;
+}
+
+.sezione1{
+    width: 85%;
+    height: 225px;
+    position: absolute;
+    top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sezione1 img{
+    width: 20%; 
+}
+.sezione2txt{
+    width: 75%;
+    height: 20px;
+    position: absolute;
+    top: 355px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+    color: white;
+}
+
+.sezione3{
+    width: 85%;
+    height: 225px;
+    position: absolute;
+    top: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sezione3 img{
+    width: 20%; 
+}
+.sezione4txt{
+    width: 75%;
+    height: 20px;
+    position:absolute;
+    top: 755px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+    color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(40, 40, 40)
+}
+
+.sx2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.cx3 {
+    width: 60%;
+    height: 100%;
+} 
+
+.dx3{
+    width: 20%;
+    height: 100%;
+}
+.sx2 img{
+    width: 20%;
+    margin-left: 10px;
+    position: relative;
+}
+
+.inc{
+    height: 60px;
+    line-height: 11px;
+    position: absolute;
+    left: 85px;
+}
+.uno{
+    color: white;
+}
+.due, .tre{
+    color: #404040;
+}
+.icone3{
+    position: absolute;
+    left: 13%;
+    width: 100px;
+}
+.icone3 i{
+color: #404040;
+}
+
+/* debug */
+
+footer{
+    /* background-color: red; */
+}
+.dx{
+    background-color: aqua;
+}
+.inc{
+    border: 2px solid black;
+}
+.sx2{
+border: 2px solid black;
+}
+.dx3{
+    border: 2px solid blue;
+}

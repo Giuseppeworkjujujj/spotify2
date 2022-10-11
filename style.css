@@ -51,7 +51,6 @@ header button{
 .sx img{
     width: 60%;
     margin-left: 25px;
-
 }
 
 .icone{
@@ -168,7 +167,7 @@ header button{
 /* ............................DESTRA.............................. */
 .dx{
     width: 82%;
-    height: 100%;
+    height:1000px;
     float: right;
     position: relative;
     display: flex;
@@ -254,8 +253,49 @@ header button{
     color: white;
 }
 
+.rec2{
+    position: absolute;
+    top: 775px;
+    left: 20px;
+    color: white;
+}
+
+.sezione5{
+    width: 85%;
+    height: 225px;
+    position: absolute;
+    top: 795px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sezione5 img{
+    width: 20%; 
+}
+.sezione6txt{
+    width: 75%;
+    height: 20px;
+    position: absolute;
+    top: 1020px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+    color: white;
+}
+
+/* .spazio{
+    width: 82%;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    border: 5px solid black;
+} */
 footer{
-    position: fixed;
+    /* position: fixed; */
+    position: static;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -312,11 +352,12 @@ color: #404040;
 
 /* debug */
 
+
 footer{
     /* background-color: red; */
 }
 .dx{
-    background-color: aqua;
+    background-color: red;
 }
 .inc{
     border: 2px solid black;
@@ -326,4 +367,14 @@ border: 2px solid black;
 }
 .dx3{
     border: 2px solid blue;
+}
+
+.main{
+    background-color: aqua;
+}
+body{
+    background-color: aqua;
+}
+.dx{
+    border: 5px solid green;
 }

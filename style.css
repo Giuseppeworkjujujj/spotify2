@@ -167,7 +167,7 @@ header button{
 /* ............................DESTRA.............................. */
 .dx{
     width: 82%;
-    height:222vh;
+    height:230vh;
     float: right;
     position: relative;
     display: flex;
@@ -282,23 +282,63 @@ header button{
     width: 75%;
     height: 20px;
     position: absolute;
-    top: 1130px;
+    top: 1100px;
     left: 0;
     /* display: flex;
     justify-content: space-between;
     align-items: baseline; */
     font-weight: bold;
     color: white;
+    border: 2px solid gray;
+    width: 380px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rec3{
+    position: absolute;
+    top: 1200px;
+    left: 20px;
+    color: white;
+}
+
+.sezione7{
+    width: 85%;
+    height: 225px;
+    position: absolute;
+    top: 1250px;
+    left: 0;
+    /* display: flex;
+    justify-content:baseline;
+    align-items: center; */
+
+}
+.sezione7 img{
+    margin-left:20px;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.sezione8txt{
+    width: 75%;
+    height: 20px;
+    position: absolute;
+    top: 1475px;
+    left: 0;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: baseline; */
+    font-weight: bold;
+    color: white;
+    border: 2px solid gray;
+    width: 380px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 
-/* .spazio{
-    width: 82%;
-    height: 120px;
-    position: absolute;
-    bottom: 0;
-    border: 5px solid black;
-} */
 footer{
     position: fixed;
     /* position: static; */
@@ -309,7 +349,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: rgb(40, 40, 40) */
+    background-color: rgb(40, 40, 40)
 }
 
 .sx2 {

@@ -167,7 +167,7 @@ header button{
 /* ............................DESTRA.............................. */
 .dx{
     width: 82%;
-    height:1000px;
+    height:222vh;
     float: right;
     position: relative;
     display: flex;
@@ -255,7 +255,7 @@ header button{
 
 .rec2{
     position: absolute;
-    top: 775px;
+    top: 850px;
     left: 20px;
     color: white;
 }
@@ -264,11 +264,15 @@ header button{
     width: 85%;
     height: 225px;
     position: absolute;
-    top: 795px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    top: 900px;
+    left: 0;
+    /* display: flex;
+    justify-content:baseline;
+    align-items: center; */
 
+}
+.sezione5 img{
+    margin-left: 20px;
 }
 
 .sezione5 img{
@@ -278,13 +282,15 @@ header button{
     width: 75%;
     height: 20px;
     position: absolute;
-    top: 1020px;
-    display: flex;
+    top: 1130px;
+    left: 0;
+    /* display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: baseline; */
     font-weight: bold;
     color: white;
 }
+
 
 /* .spazio{
     width: 82%;
@@ -294,8 +300,8 @@ header button{
     border: 5px solid black;
 } */
 footer{
-    /* position: fixed; */
-    position: static;
+    position: fixed;
+    /* position: static; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -303,7 +309,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(40, 40, 40)
+    /* background-color: rgb(40, 40, 40) */
 }
 
 .sx2 {

@@ -167,7 +167,7 @@ header button{
 /* ............................DESTRA.............................. */
 .dx{
     width: 82%;
-    height:230vh;
+    height:240vh;
     float: right;
     position: relative;
     display: flex;
@@ -217,7 +217,7 @@ header button{
 }
 .sezione2txt{
     width: 75%;
-    height: 20px;
+    height: 70px;
     position: absolute;
     top: 355px;
     display: flex;
@@ -225,7 +225,53 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
+    border: 2px solid black;
 }
+.sezione01txt{
+    width: 75%;
+    height: 70px;
+    position: absolute;
+    top: 380px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    color: #404040;
+    font-size: smaller;
+    margin-left: 30px;
+}
+.sezione02txt{
+    width: 75%;
+    height: 70px;
+    position: absolute;
+    top: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    color: #404040;
+    font-size: smaller;
+}
+.sezione03txt{
+    width: 75%;
+    height: 70px;
+    position: absolute;
+    top: 380px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: baseline;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    color: #404040;
+    font-size: smaller;
+    margin-right: 30px;
+}
+
 
 .sezione3{
     width: 85%;
@@ -242,15 +288,30 @@ header button{
     width: 20%; 
 }
 .sezione4txt{
-    width: 75%;
+    width: 73%;
     height: 20px;
     position:absolute;
-    top: 755px;
+    top: 725px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     font-weight: bold;
     color: white;
+    border: 2px solid blue;
+}
+.sezione4mtxt{
+    width: 900px;
+    height: 20px;
+    position:absolute;
+    top: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+    font-size: smaller;
+    color:#404040;
+    border: 2px solid blue;
+    margin-left: -10px;
 }
 
 .rec2{
@@ -279,10 +340,10 @@ header button{
     width: 20%; 
 }
 .sezione6txt{
-    width: 75%;
+    /* width: 75%; */
     height: 20px;
     position: absolute;
-    top: 1100px;
+    top: 1125px;
     left: 0;
     /* display: flex;
     justify-content: space-between;
@@ -290,7 +351,7 @@ header button{
     font-weight: bold;
     color: white;
     border: 2px solid gray;
-    width: 380px;
+    width: 450px;
     margin-left: 10px;
     display: flex;
     justify-content: space-around;
@@ -301,13 +362,19 @@ header button{
     top: 1200px;
     left: 20px;
     color: white;
+    line-height: 15px;
+}
+.piuasc{
+    color: #404040;
+    font-size: smaller;
+
 }
 
 .sezione7{
     width: 85%;
     height: 225px;
     position: absolute;
-    top: 1250px;
+    top: 1280px;
     left: 0;
     /* display: flex;
     justify-content:baseline;
@@ -321,10 +388,10 @@ header button{
 }
 
 .sezione8txt{
-    width: 75%;
+    /* width: 75%; */
     height: 20px;
     position: absolute;
-    top: 1475px;
+    top: 1505px;
     left: 0;
     /* display: flex;
     justify-content: space-between;
@@ -332,7 +399,7 @@ header button{
     font-weight: bold;
     color: white;
     border: 2px solid gray;
-    width: 380px;
+    width: 450px;
     margin-left: 10px;
     display: flex;
     justify-content: space-around;
@@ -403,7 +470,7 @@ footer{
     /* background-color: red; */
 }
 .dx{
-    background-color: red;
+    background-color:black;
 }
 .inc{
     border: 2px solid black;

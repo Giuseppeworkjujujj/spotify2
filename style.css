@@ -46,7 +46,12 @@ header button{
     width: 100%;
     height: 100px;
     display: flex;
+    /* justify-content: center; */
     align-items: center;
+    /* border: 2px solid red; */
+    /* position: relative;
+    left: 0; */
+
 }
 .sx img{
     width: 60%;
@@ -57,6 +62,7 @@ header button{
     width: 100%;
     height: 110px;
     display: flex;
+    /* justify-content: baseline; */
     align-items: center;
 }
 
@@ -70,7 +76,7 @@ header button{
     font-weight: 500;
 }
 .sx li {
-    color: #404040;
+    color: #C6BFB8;
 }
 
 .sx li:first-child{
@@ -89,7 +95,7 @@ header button{
     position: absolute;
     font-size: 22px;
     font-weight: bold;
-    color: #404040;
+    color: #C6BFB8;
 }
 
 .piu{
@@ -125,7 +131,7 @@ header button{
     position: absolute;
     top: 5px;
     left: 25px;
-    color: #404040;
+    color: #C6BFB8;
 }
 
 .down p{
@@ -134,7 +140,7 @@ header button{
     left: 60px;
     font-size: 16px;
     font-weight: bold;
-    color: #404040;
+    color: #C6BFB8;
 }
 
 .down hr{
@@ -175,7 +181,7 @@ header button{
 }
 
 .menu2{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 70%;
     height: 25px;
     position: absolute;
@@ -191,7 +197,7 @@ header button{
 }
 .menu2 li{
     display: inline;
-    color: #404040;
+    color: #C6BFB8;
 }
 
 .rec{
@@ -225,7 +231,7 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .sezione01txt{
     width: 75%;
@@ -237,8 +243,8 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    border: 2px solid black;
-    color: #404040;
+    /* border: 2px solid black; */
+    color: #C6BFB8;
     font-size: smaller;
     margin-left: 30px;
 }
@@ -252,8 +258,8 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    border: 2px solid black;
-    color: #404040;
+    /* border: 2px solid black; */
+    color: #C6BFB8;
     font-size: smaller;
 }
 .sezione03txt{
@@ -266,8 +272,8 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    border: 2px solid black;
-    color: #404040;
+    /* border: 2px solid black; */
+    color: #C6BFB8;
     font-size: smaller;
     margin-right: 30px;
 }
@@ -297,7 +303,7 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .sezione4mtxt{
     width: 900px;
@@ -309,8 +315,8 @@ header button{
     align-items: baseline;
     font-weight: bold;
     font-size: smaller;
-    color:#404040;
-    border: 2px solid blue;
+    color:#C6BFB8;
+    /* border: 2px solid blue; */
     margin-left: -10px;
 }
 
@@ -350,7 +356,7 @@ header button{
     align-items: baseline; */
     font-weight: bold;
     color: white;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     width: 450px;
     margin-left: 10px;
     display: flex;
@@ -365,7 +371,7 @@ header button{
     line-height: 15px;
 }
 .piuasc{
-    color: #404040;
+    color: #C6BFB8;
     font-size: smaller;
 
 }
@@ -398,7 +404,7 @@ header button{
     align-items: baseline; */
     font-weight: bold;
     color: white;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     width: 450px;
     margin-left: 10px;
     display: flex;
@@ -428,18 +434,48 @@ footer{
 }
 
 .cx3 {
-    width: 60%;
+    width: 20%;
     height: 100%;
 } 
 
 .dx3{
-    width: 20%;
+    width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 30px;
+    font-weight: bold;
+    color: white;
+}
+.dx3 hr{
+    border: 2px solid #C6BFB8;
+    background-color: #C6BFB8;
+    border-radius: 10px 10px 10px 10px;
+    width: 70%;
+    margin-bottom: 5px;
+}
+.play{
+    border: 2px solid red;
+    width: 300px;
+    height: 50px;
+}
+.fa1 , .fa2 , .fa3 , .fa4{
+    color: white;
+    width: 100px;
+}
+.lulu{
+    font-size: 550px;
+    width: 550px;
+    color: black;
 }
 .sx2 img{
-    width: 20%;
+    width: 3%;
     margin-left: 10px;
-    position: relative;
+    /* position: relative; */
+    position: absolute;
+    left: 15px;
 }
 
 .inc{
@@ -452,7 +488,7 @@ footer{
     color: white;
 }
 .due, .tre{
-    color: #404040;
+    color: #C6BFB8;
 }
 .icone3{
     position: absolute;
@@ -460,7 +496,7 @@ footer{
     width: 100px;
 }
 .icone3 i{
-color: #404040;
+color: #C6BFB8;
 }
 
 /* debug */
@@ -470,7 +506,7 @@ footer{
     /* background-color: red; */
 }
 .dx{
-    background-color:black;
+    background-color:#141922;
 }
 .inc{
     border: 2px solid black;
@@ -478,7 +514,7 @@ footer{
 .sx2{
 border: 2px solid black;
 }
-.dx3{
+.dx3 , .cx3{
     border: 2px solid blue;
 }
 
@@ -489,5 +525,5 @@ body{
     background-color: aqua;
 }
 .dx{
-    border: 5px solid green;
+    /* border: 5px solid green; */
 }

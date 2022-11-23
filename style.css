@@ -46,12 +46,7 @@ header button{
     width: 100%;
     height: 100px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    /* border: 2px solid red; */
-    /* position: relative;
-    left: 0; */
-
 }
 .sx img{
     width: 60%;
@@ -62,7 +57,6 @@ header button{
     width: 100%;
     height: 110px;
     display: flex;
-    /* justify-content: baseline; */
     align-items: center;
 }
 
@@ -178,10 +172,10 @@ header button{
     position: relative;
     display: flex;
     justify-content: center;
+    background-color:#141922;
 }
 
 .menu2{
-    /* border: 2px solid black; */
     width: 70%;
     height: 25px;
     position: absolute;
@@ -231,7 +225,6 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    /* border: 2px solid black; */
 }
 .sezione01txt{
     width: 75%;
@@ -243,7 +236,6 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    /* border: 2px solid black; */
     color: #C6BFB8;
     font-size: smaller;
     margin-left: 30px;
@@ -258,7 +250,6 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    /* border: 2px solid black; */
     color: #C6BFB8;
     font-size: smaller;
 }
@@ -272,7 +263,6 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    /* border: 2px solid black; */
     color: #C6BFB8;
     font-size: smaller;
     margin-right: 30px;
@@ -303,7 +293,6 @@ header button{
     align-items: baseline;
     font-weight: bold;
     color: white;
-    /* border: 2px solid blue; */
 }
 .sezione4mtxt{
     width: 900px;
@@ -316,7 +305,6 @@ header button{
     font-weight: bold;
     font-size: smaller;
     color:#C6BFB8;
-    /* border: 2px solid blue; */
     margin-left: -10px;
 }
 
@@ -333,10 +321,6 @@ header button{
     position: absolute;
     top: 900px;
     left: 0;
-    /* display: flex;
-    justify-content:baseline;
-    align-items: center; */
-
 }
 .sezione5 img{
     margin-left: 20px;
@@ -346,17 +330,12 @@ header button{
     width: 20%; 
 }
 .sezione6txt{
-    /* width: 75%; */
     height: 20px;
     position: absolute;
     top: 1125px;
     left: 0;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: baseline; */
     font-weight: bold;
     color: white;
-    /* border: 2px solid gray; */
     width: 450px;
     margin-left: 10px;
     display: flex;
@@ -373,7 +352,6 @@ header button{
 .piuasc{
     color: #C6BFB8;
     font-size: smaller;
-
 }
 
 .sezione7{
@@ -382,10 +360,6 @@ header button{
     position: absolute;
     top: 1280px;
     left: 0;
-    /* display: flex;
-    justify-content:baseline;
-    align-items: center; */
-
 }
 .sezione7 img{
     margin-left:20px;
@@ -394,17 +368,12 @@ header button{
 }
 
 .sezione8txt{
-    /* width: 75%; */
     height: 20px;
     position: absolute;
     top: 1505px;
     left: 0;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: baseline; */
     font-weight: bold;
     color: white;
-    /* border: 2px solid gray; */
     width: 450px;
     margin-left: 10px;
     display: flex;
@@ -414,7 +383,6 @@ header button{
 
 footer{
     position: fixed;
-    /* position: static; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -436,8 +404,27 @@ footer{
 .cx3 {
     width: 20%;
     height: 100%;
+   margin-right: 0;    
+   color: white;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
 } 
 
+.z1 , .z2, .z3 , .z4{
+    color: white;
+    width: 30px;
+}
+.z4{
+    width: 80px;
+    position: absolute;
+    right: 13px;
+}
+.cx3 hr{
+    border: 2px solid #C6BFB8;
+    background-color: #C6BFB8;
+    border-radius: 10px 10px 10px 10px;
+}
 .dx3{
     width: 50%;
     height: 100%;
@@ -457,23 +444,21 @@ footer{
     margin-bottom: 5px;
 }
 .play{
-    border: 2px solid red;
     width: 300px;
     height: 50px;
-}
-.fa1 , .fa2 , .fa3 , .fa4{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size: 15px;
+    margin-bottom: 30px;
     color: white;
-    width: 100px;
 }
-.lulu{
-    font-size: 550px;
-    width: 550px;
-    color: black;
+#lulu{
+    font-size: 35px;
 }
 .sx2 img{
     width: 3%;
     margin-left: 10px;
-    /* position: relative; */
     position: absolute;
     left: 15px;
 }
@@ -497,33 +482,4 @@ footer{
 }
 .icone3 i{
 color: #C6BFB8;
-}
-
-/* debug */
-
-
-footer{
-    /* background-color: red; */
-}
-.dx{
-    background-color:#141922;
-}
-.inc{
-    border: 2px solid black;
-}
-.sx2{
-border: 2px solid black;
-}
-.dx3 , .cx3{
-    border: 2px solid blue;
-}
-
-.main{
-    background-color: aqua;
-}
-body{
-    background-color: aqua;
-}
-.dx{
-    /* border: 5px solid green; */
 }

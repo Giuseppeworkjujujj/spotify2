@@ -283,6 +283,9 @@ header button{
 .sezione3 img{
     width: 20%; 
 }
+.sezione3over :hover{
+    display: none;
+}
 .sezione4txt{
     width: 73%;
     height: 20px;
